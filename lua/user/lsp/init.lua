@@ -59,7 +59,7 @@ formatters.setup({
 local linters = require("lvim.lsp.null-ls.linters")
 linters.setup({
 	{
-		command = "eslint_d",
+		command = "eslint",
 		filetypes = {
 			"typescript",
 			"typescriptreact",
@@ -73,7 +73,7 @@ linters.setup({
 local code_actions = require("lvim.lsp.null-ls.code_actions")
 code_actions.setup({
 	{
-		command = "eslint_d",
+		command = "eslint",
 		filetypes = {
 			"typescript",
 			"typescriptreact",
