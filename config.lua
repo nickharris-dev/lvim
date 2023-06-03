@@ -4,11 +4,12 @@
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
 reload("user.options")
-reload("user.keymaps")
 reload("user.plugins")
-reload("user.lsp")
+reload("user.keymaps")
 reload("user.copilot")
+reload("user.dracula")
+reload("user.hop")
+reload("user.lsp")
 reload("user.nvim-tree")
-reload("user.which-key")
 reload("user.telescope")
-reload("dracula")
+reload("user.which-key")

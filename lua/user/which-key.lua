@@ -4,10 +4,9 @@ local wk = lvim.builtin.which_key
 
 wk.mappings["h"] = {}
 
-wk.mappings["r"] = {
-	"<cmd>lua vim.lsp.buf.rename()<CR>",
-	"Rename Symbol",
-}
+wk.mappings["Q"] = { "<cmd>qa<cr>", "Quit All" }
+
+wk.mappings["r"] = { "<cmd>lua vim.lsp.buf.rename()<CR>", "Rename Symbol" }
 
 -- Extend Search
 wk.mappings["sw"] = {
