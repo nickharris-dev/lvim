@@ -11,6 +11,7 @@ lvim.plugins = {
 		"j-hui/fidget.nvim",
 		"NvChad/nvim-colorizer.lua",
 		"moll/vim-bbye",
+		"ruifm/gitlinker.nvim",
 	},
 	{
 		"kylechui/nvim-surround",

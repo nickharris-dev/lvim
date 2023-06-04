@@ -8,6 +8,9 @@ wk.mappings["Q"] = { "<cmd>qa<cr>", "Quit All" }
 
 wk.mappings["r"] = { "<cmd>lua vim.lsp.buf.rename()<CR>", "Rename Symbol" }
 
+-- Extend Git
+wk.mappings["gy"] = { "<cmd>lua require('gitlinker').get_buf_range_url('n')<cr><cr>", "Copy Buffer Link" }
+
 -- Extend Search
 wk.mappings["sw"] = {
 	"<cmd>lua require('telescope.builtin').grep_string({ search = vim.fn.expand('<cword>') })<cr>",
