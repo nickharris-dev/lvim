@@ -23,3 +23,5 @@ vim.api.nvim_set_keymap(
 	"<cmd>lua require'hop'.hint_char1({ direction = require'hop.hint'.HintDirection.BEFORE_CURSOR,  hint_offset = 1 })<cr>",
 	{}
 )
+
+vim.api.nvim_set_keymap("n", "gn", "<cmd>lua require'hop'.hint_lines({})<cr>", {})
