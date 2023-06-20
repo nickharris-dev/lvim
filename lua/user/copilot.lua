@@ -17,7 +17,7 @@ copilot.setup({
 		enabled = true,
 		auto_trigger = true,
 		keymap = {
-			accept = "<Tab>",
+			accept = "<c-l>",
 			next = "<c-j>",
 			prev = "<c-k>",
 			dismiss = "<c-h>",
