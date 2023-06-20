@@ -8,10 +8,6 @@ end
 dracula.setup({
 	show_end_of_buffer = false,
 	transparent_bg = true,
-	colors = {
-		selection = "#FF92DF",
-		visual = "",
-	},
 })
 
 lvim.autocommands = {
@@ -20,7 +16,7 @@ lvim.autocommands = {
 		{
 			pattern = "*",
 			callback = function()
-				vim.api.nvim_set_hl(0, "Visual", { bg = "#A4FFFF" })
+				vim.api.nvim_set_hl(0, "Visual", { bg = "#A4FFFF", fg = "#000000" })
 			end,
 		},
 	},
