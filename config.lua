@@ -6,6 +6,7 @@
 reload("user.options")
 reload("user.plugins")
 reload("user.keymaps")
+
 reload("user.copilot")
 reload("user.dracula")
 reload("user.gitlinker")
