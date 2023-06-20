@@ -6,6 +6,7 @@ end
 hop.setup({
 	direction = "both",
 	jump_on_sole_occurrence = true,
+	uppercase_labels = true,
 })
 
 lvim.keys.normal_mode["f"] = "<cmd>lua require'hop'.hint_char1()<cr>"
