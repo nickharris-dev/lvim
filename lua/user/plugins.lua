@@ -12,6 +12,7 @@ lvim.plugins = {
 		"NvChad/nvim-colorizer.lua",
 		"moll/vim-bbye",
 		"ruifm/gitlinker.nvim",
+		"folke/zen-mode.nvim",
 	},
 	{
 		"kylechui/nvim-surround",
