@@ -4,6 +4,7 @@ vim.opt.cursorline = false
 vim.opt.cursorcolumn = false
 vim.opt.fileencoding = "utf-8"
 vim.opt.iskeyword:append("-")
+vim.opt.mouse = ""
 vim.opt.scrolloff = 8
 vim.opt.shiftwidth = 2
 vim.opt.showmode = false
