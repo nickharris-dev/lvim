@@ -26,10 +26,6 @@ lvim.plugins = {
     end,
   },
   {
-    "phaazon/hop.nvim",
-    branch = "v2", -- optional but strongly recommended
-  },
-  {
     "AckslD/nvim-trevJ.lua",
     config = 'require("trevj").setup()',
     init = function()
