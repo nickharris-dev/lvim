@@ -29,3 +29,4 @@ lvim.colorscheme = "dracula"
 lvim.transparent_window = true
 
 -- Builtin Plugin config
+-- lvim.builtin.project.active = false -- will disable the project.nvim plugin
