@@ -5,9 +5,14 @@ lvim.keys.visual_mode["p"] = '"_dP'
 
 -- Window management
 -- -- Next/Previous Buffer
-lvim.keys.normal_mode["<S-h>"] = ":bprev<CR>"
-lvim.keys.normal_mode["<S-l>"] = ":bnext<CR>"
+lvim.keys.normal_mode["˙"] = ":bprev<CR>"
+lvim.keys.normal_mode["¬"] = ":bnext<CR>"
 -- -- Move buffer to pane
+
+-- Navigation
+-- -- Next/Previous Change
+lvim.keys.normal_mode["<S-h>"] = "g;"
+lvim.keys.normal_mode["<S-l>"] = "g,"
 
 -- Language Server Stuff (Go to definition etc)
 lvim.lsp.buffer_mappings.normal_mode["gr"] = {

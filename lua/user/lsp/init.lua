@@ -1,5 +1,5 @@
 local lvim_lsp = require("lvim.lsp")
-local ts = require("typescript")
+-- local ts = require("typescript")
 local lspconfig = require("lspconfig")
 
 vim.diagnostic.config({
@@ -32,8 +32,6 @@ lspconfig.eslint.setup({
 
 local formatters = require("lvim.lsp.null-ls.formatters")
 formatters.setup({
-  { command = "stylua", filetypes = { "lua" } },
-  { command = "shfmt",  filetypes = { "sh", "zsh" } },
   {
     command = "prettierd",
     filetypes = {
@@ -54,6 +52,8 @@ formatters.setup({
       "json",
     },
   },
+  { command = "stylua", filetypes = { "lua" } },
+  { command = "shfmt",  filetypes = { "sh", "zsh" } },
 })
 
 local linters = require("lvim.lsp.null-ls.linters")

@@ -16,7 +16,7 @@ vim.opt.smartindent = true
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.swapfile = false
-vim.opt.tabstop = 2
+vim.opt.tabstop = 4
 vim.opt.termguicolors = true
 vim.opt.updatetime = 300
 vim.opt.whichwrap:append("<,>,[,],h,l")
@@ -30,3 +30,4 @@ lvim.transparent_window = true
 
 -- Builtin Plugin config
 -- lvim.builtin.project.active = false -- will disable the project.nvim plugin
+lvim.builtin.bufferline.active = false
